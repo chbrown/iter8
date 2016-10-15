@@ -3,7 +3,7 @@
 More `itertools`!
 
 
-## Installation [![PyPI version](https://badge.fury.io/py/iter8.png)](http://badge.fury.io/py/iter8)
+## Installation [![PyPI version](https://badge.fury.io/py/iter8.svg)](https://pypi.python.org/pypi/iter8)
 
     easy_install -U iter8
 
