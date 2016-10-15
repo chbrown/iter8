@@ -30,5 +30,5 @@ License
 Copyright (c) 2015 Christopher Brown. `MIT
 Licensed <https://raw.github.com/chbrown/iter8/master/LICENSE>`__.
 
-.. |PyPI version| image:: https://badge.fury.io/py/iter8.png
-   :target: http://badge.fury.io/py/iter8
+.. |PyPI version| image:: https://badge.fury.io/py/iter8.svg
+   :target: https://pypi.python.org/pypi/iter8
