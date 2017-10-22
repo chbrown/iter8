@@ -28,7 +28,6 @@ def sig_enumerate(seq, start=0, logger=None):
         signal.signal(signum, old_handler)
 
 
-
 def take(seq, n):
     '''
     Basically just itertools.islice(seq, 0, n)
@@ -39,7 +38,6 @@ def take(seq, n):
         yield item
         if index == last_index:
             break
-
 
 
 def iside(seq, fn):

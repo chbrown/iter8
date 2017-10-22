@@ -1,4 +1,4 @@
-import itertools
+from itertools import islice
 
 
 def discrete(seq, n):
@@ -7,7 +7,7 @@ def discrete(seq, n):
     '''
     iterable = iter(seq)
     while True:
-        group = list(itertools.islice(iterable, n))
+        group = list(islice(iterable, n))
         if len(group) > 0:
             yield group
         if len(group) < n:

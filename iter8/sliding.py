@@ -1,4 +1,4 @@
-import itertools
+from itertools import islice
 
 
 def sliding(seq, n):
@@ -12,7 +12,7 @@ def sliding(seq, n):
     [(1, 2), (2, 3), (3, 4)]
     '''
     it = iter(seq)
-    result = tuple(itertools.islice(it, n))
+    result = tuple(islice(it, n))
     if len(result) == n:
         yield result
     for elem in it:
@@ -26,4 +26,4 @@ def sliding_list(seq, n):
 
     Returns a list of lists, instead of an iterable of tuples
     '''
-    return [seq[i:i+n] for i in xrange(len(seq) + 1 - n)]
+    return [seq[i:i + n] for i in xrange(len(seq) + 1 - n)]
