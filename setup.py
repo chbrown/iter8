@@ -1,18 +1,15 @@
-from setuptools import setup, find_packages
-import json
-
-package = json.load(open('package.json'))
+from setuptools import setup
 
 setup(
-    name=str(package['name']),
-    version=str(package['version']),
-    url=str(package['homepage']),
-    description=str(package['description']),
+    name='iter8',
+    version='0.0.2',
+    url='https://github.com/chbrown/iter8',
+    description='More itertools',
     long_description=open('README.rst').read(),
-    author=str(package['author']['name']),
-    author_email=str(package['author']['email']),
-    license=open('LICENSE').read(),
-    packages=find_packages(),
+    author='Christopher Brown',
+    author_email='io@henrian.com',
+    license='MIT',
+    packages=['iter8'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
