@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='iter8',
-    version='0.0.2',
+    version='0.0.3',
     url='https://github.com/chbrown/iter8',
     description='More itertools',
     long_description=open('README.rst').read(),
