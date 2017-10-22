@@ -23,4 +23,4 @@ Typical publish process:
 
 ## License
 
-Copyright (c) 2015 Christopher Brown. [MIT Licensed](https://raw.github.com/chbrown/iter8/master/LICENSE).
+Copyright (c) 2015-2017 Christopher Brown. [MIT Licensed](https://raw.github.com/chbrown/iter8/master/LICENSE.txt).
