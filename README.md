@@ -1,24 +1,12 @@
 # `iter8`
 
+[![PyPI version](https://badge.fury.io/py/iter8.svg)](https://pypi.python.org/pypi/iter8)
+
 More `itertools`!
 
+Install:
 
-## Installation [![PyPI version](https://badge.fury.io/py/iter8.svg)](https://pypi.python.org/pypi/iter8)
-
-    easy_install -U iter8
-
-
-## Development
-
-This package is published to PyPI at [pypi.python.org/pypi/iter8](https://pypi.python.org/pypi/iter8/).
-
-Typical publish process:
-
-1. `pandoc README.md -o README.rst`
-2. If needed, `git commit ...`
-2. `npm version patch`
-3. `git push`
-4. `python setup.py register sdist upload`
+    pip install -U iter8
 
 
 ## License
